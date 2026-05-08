@@ -17,6 +17,14 @@
 
 <section class="container py-5">
 
+    <div class="container mt-4">
+
+        <a href="index.php" class="btn btn-dark">
+            <i class="fas fa-arrow-left"></i> Volver al inicio
+        </a>
+
+    </div>
+
     <h2 class="text-center mb-5">Nuestros Productos</h2>
 
     <div class="row g-4">
