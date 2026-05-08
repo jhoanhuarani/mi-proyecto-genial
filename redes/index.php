@@ -6,167 +6,10 @@
 <title>RedTech Bolivia</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"></script>
-
-<style>
-body {
-    font-family: 'Segoe UI', sans-serif;
-    background: linear-gradient(to right, #eef2f3, #dfe9f3);
-    padding-top: 56px;
-}
-.navbar {
-    box-shadow: 0 2px 15px rgba(0,0,0,0.3);
-}
-
-.hero {
-    background: linear-gradient(135deg, #0d6efd, #6610f2);
-    color: white;
-    padding: 90px 0 70px;
-    text-align: center;
-}
-.wifi-hero {
-    font-size: 95px;
-    margin-bottom: 20px;
-    position: relative;
-    animation: bounce 2s infinite;
-}
-
-@keyframes bounce {
-    0%,100% { transform: translateY(0); }
-    50% { transform: translateY(-12px); }
-}
-
-.wifi-hero::before,
-.wifi-hero::after {
-    content: "";
-    position: absolute;
-    border: 3px solid rgba(255,255,255,0.5);
-    border-radius: 50%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    animation: wave 2s infinite;
-}
-
-.wifi-hero::before { width: 120px; height: 120px; }
-.wifi-hero::after { width: 170px; height: 170px; animation-delay: .5s; }
-
-@keyframes wave {
-    0% { opacity: .8; transform: translate(-50%, -50%) scale(.7); }
-    100% { opacity: 0; transform: translate(-50%, -50%) scale(1.4); }
-}
-
-.hero h1 {
-    font-size: 40px;
-    font-weight: bold;
-}
-
-.hero p {
-    font-size: 18px;
-}
-
-section { padding: 60px 0; }
-
-.card {
-    border-radius: 20px;
-    background: white;
-    transition: .3s;
-    height: 100%;
-}
-
-.card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 30px rgba(0,0,0,.25);
-}
-
-.card img {
-    height: 200px;
-    object-fit: contain;
-    padding: 15px;
-    background: #f8f9fa;
-}
-
-.price {
-    color: #0d6efd;
-    font-size: 22px;
-    font-weight: bold;
-}
-
-.btn-primary {
-    border-radius: 30px;
-    font-weight: bold;
-    padding: 12px 30px;
-    transition: 0.3s;
-}
-
-.btn-primary:hover {
-    transform: scale(1.08);
-}
-
-.servicios {
-    background: white;
-}
-
-.icon-box {
-    padding: 20px;
-    border-radius: 15px;
-    background: #f8f9fa;
-    transition: .3s;
-}
-
-.icon-box:hover {
-    background: #0d6efd;
-    color: white;
-    transform: scale(1.05);
-}
-
-
-.contacto {
-    background: linear-gradient(45deg, #0d6efd, #0a58ca);
-    color: white;
-}
-
-
-footer {
-    background: #111;
-}
-
-.whatsapp {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 60px;
-    height: 60px;
-    background: #25D366;
-    color: white;
-    font-size: 28px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    box-shadow: 0 8px 20px rgba(0,0,0,.3);
-}
-
-.whatsapp::before {
-    content:"";
-    position:absolute;
-    width:100%;
-    height:100%;
-    border-radius:50%;
-    background:rgba(37,211,102,.4);
-    animation:pulse 1.8s infinite;
-}
-
-@keyframes pulse {
-    0%{transform:scale(1);opacity:.6;}
-    70%{transform:scale(1.6);opacity:0;}
-    100%{transform:scale(1);opacity:0;}
-}
-
-</style>
+<link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-
 <nav class="navbar navbar-dark bg-dark fixed-top">
     <div class="container justify-content-center">
         <span class="navbar-brand">RedTech Bolivia</span>
@@ -192,14 +35,13 @@ footer {
 <h2 class="text-center mb-5">Nuestros Productos</h2>
 
 <div class="row g-4">
-
-<div class="col-md-4">
-<div class="card text-center p-3">
-<img src="https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/latam/common/launch/2025/0710/plp/routers/product-shelf-and-pop-up/view-all/wifi-be-ax-series/all-wifi-be3-pro.png">
-<h5>Router WiFi</h5>
-<p>Alta velocidad y cobertura</p>
-<div class="price">Bs 500</div>
-</div>
+    <div class="col-md-4">
+        <div class="card text-center p-3">
+            <img src="https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/latam/common/launch/2025/0710/plp/routers/product-shelf-and-pop-up/view-all/wifi-be-ax-series/all-wifi-be3-pro.png">
+            <h5>Router WiFi</h5>
+            <p>Alta velocidad y cobertura</p>
+        <div class="price">Bs 500</div>
+    </div>
 </div>
 
 <div class="col-md-4">
@@ -217,8 +59,8 @@ footer {
 <h5>Cable UTP CAT6</h5>
 <p>Alta calidad</p>
 <div class="price">Bs 70</div>
-</div>
-</div>
+    </div>
+    </div>
 
 </div>
 
